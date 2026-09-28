@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>მარიამ მერებაშვილი</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Noto Sans Georgian',Arial,sans-serif;background:#0d0d0f;color:#f2f2f2;line-height:1.75}
+a{color:inherit;text-decoration:none}
+nav{position:fixed;top:0;left:0;right:0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:14px 5%;background:rgba(10,10,12,.85);backdrop-filter:blur(8px);border-bottom:1px solid #202024}
+nav b{letter-spacing:2px;font-size:15px}
+nav ul{display:flex;gap:6px;list-style:none;flex-wrap:wrap;justify-content:flex-end}
+nav a{display:block;padding:6px 12px;border-radius:20px;font-size:14px;color:#a5a5ad;transition:.2s}
+nav a:hover,nav a.on{color:#fff;background:#1d1d22}
+html{scroll-behavior:smooth}
+section,header{scroll-margin-top:0}
+.hero{display:flex;min-height:100vh;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:90px 30px 40px;
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.78)),url("https://i.postimg.cc/kB4w8kTs/Screenshot-2026-09-28-143514.png") center/cover no-repeat fixed}
+.hero small{letter-spacing:4px;color:#cfd6e0;font-size:13px}
+.hero h1{font-size:clamp(34px,8vw,72px);margin:10px 0 14px}
+.hero p{max-width:520px;color:#ddd}
+.btns{margin-top:24px;display:flex;gap:10px;flex-wrap:wrap;justify-content:center;align-items:center}
+.btn{padding:11px 24px;border-radius:30px;border:1px solid #555;font-size:14px;transition:.2s}
+.btn:hover{background:#fff;color:#000}
+.ig{display:inline-flex;width:46px;height:46px;border-radius:50%;align-items:center;justify-content:center;background:linear-gradient(45deg,#f9a03f,#e1306c,#833ab4);transition:.25s}
+.ig:hover{transform:scale(1.12)}
+.wrap{max-width:900px;margin:auto;padding:100px 6% 20px}
+h2{font-size:26px;margin-bottom:24px}
+h2::after{content:"";display:block;width:40px;height:3px;background:#1c69d4;margin-top:8px}
+.bio p{color:#c4c4cb;margin-bottom:16px}
+.bio h3{margin:26px 0 8px;font-size:18px}
+.facts{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px}
+.facts span{padding:6px 14px;border:1px solid #2a2a30;border-radius:30px;font-size:13px;background:#141417}
+table{width:100%;border-collapse:collapse}
+td{padding:14px 6px;border-bottom:1px solid #222227}
+td:first-child{color:#8d8d96;width:45%}
+.note{margin-top:16px;color:#777;font-size:13px}
+.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.gallery img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px;cursor:zoom-in;transition:.3s}
+.gallery img:hover{transform:scale(1.03);opacity:.9}
+.card{display:flex;align-items:center;gap:16px;padding:20px;border:1px solid #26262b;background:#141417;border-radius:14px;margin-bottom:12px;transition:.2s}
+.card:hover{border-color:#e1306c}
+.card small{display:block;color:#8d8d96}
+#lb{position:fixed;inset:0;background:rgba(0,0,0,.93);display:none;align-items:center;justify-content:center;z-index:50;cursor:zoom-out;padding:20px}
+#lb.on{display:flex}
+#lb img{max-width:100%;max-height:100%;border-radius:8px}
+footer{text-align:center;padding:26px;color:#666;font-size:13px}
+@media(max-width:640px){nav{flex-direction:column;gap:8px}.wrap{padding-top:140px}}
+</style>
+</head>
+<body>
+
+<nav>
+  <b>MARIAM</b>
+  <ul>
+    <li><a href="#home">მთავარი</a></li>
+    <li><a href="#bio">ბიოგრაფია</a></li>
+    <li><a href="#data">მონაცემები</a></li>
+    <li><a href="#gallery">გალერეა</a></li>
+    <li><a href="#contact">კონტაქტი</a></li>
+  </ul>
+</nav>
+
+<div id="home">
+<header class="hero">
+  <small>BMW F30 • SUPRA LOVER</small>
+  <h1>მარიამ მერებაშვილი</h1>
+  <p>თბილისი. მანქანების მოყვარული გოგონა, რომელსაც ჰყავს BMW F30 და ძალიან უყვარს ძველი Supra.</p>
+  <div class="btns">
+    <a class="btn" href="#bio">ჩემს შესახებ</a>
+    <a class="btn" href="#gallery">გალერეა</a>
+    <a class="ig" href="https://www.instagram.com/mariamimerebashvili/" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff"/></svg>
+    </a>
+  </div>
+</header>
+</div>
+<main>
+<section id="bio"><div class="wrap bio">
+  <h2>ბიოგრაფია</h2>
+  <p>მე ვარ მარიამ მერებაშვილი, თბილისიდან. მანქანები ჩემთვის უბრალოდ გადაადგილების საშუალება არ არის. ეს ჩემი ვნებაა, ჩემი სტილი და ჩემი ხასიათის ნაწილი. მიყვარს ძრავის ხმა, ხაზები, დეტალები და ის განცდა, როცა საჭესთან ზიხარ და გზა შენია.</p>
+  <h3>ჩემი BMW F30</h3>
+  <p>ჩემი სიამაყე BMW F30-ია. სწორედ ამ მანქანამ აჩვენა, რას ნიშნავს მართვის სიამოვნება: უკანა ამძრავი, ზუსტი საჭე, დაბალანსებული მოძრაობა და კლასიკური BMW-ს ხასიათი. F30 ჩემთვის სტილის, კომფორტისა და სპორტულობის იდეალური ნაზავია.</p>
+  <h3>სიყვარული Supra-ს მიმართ</h3>
+  <p>ჩემი დიდი სიყვარულია ძველი Toyota Supra. ლეგენდარული ძრავი, კლასიკური სილუეტი და JDM კულტურის სული ის მიზეზებია, რის გამოც ეს მანქანა არასდროს გამოდის მოდიდან. ერთ დღეს მინდა, ეს ლეგენდა ჩემს გარაჟშიც იდგეს.</p>
+  <h3>ავტომობილების სამყარო</h3>
+  <p>მიყვარს მანქანების ისტორია, ახალი და ძველი მოდელების შედარება, ავტომობილების ფოტოები და ავტომოყვარულთა საზოგადოება. ჩემთვის მანქანა ადამიანის ხასიათს ასახავს, ამიტომ თითოეულ დეტალს განსაკუთრებული ყურადღებით ვუყურებ.</p>
+  <div class="facts"><span>📍 თბილისი</span><span>🚗 BMW F30</span><span>🔥 Old Supra</span><span>🏁 Car Lover</span></div>
+</div></section>
+<section id="data"><div class="wrap">
+  <h2>BMW F30 2.0 — მონაცემები</h2>
+  <table>
+    <tr><td>მარკა</td><td>BMW</td></tr>
+    <tr><td>სერია</td><td>3 Series</td></tr>
+    <tr><td>თაობა</td><td>F30</td></tr>
+    <tr><td>ძრავი</td><td>2.0 ლიტრი</td></tr>
+    <tr><td>ძარის ტიპი</td><td>სედანი</td></tr>
+    <tr><td>ამძრავი</td><td>უკანა (RWD)</td></tr>
+    <tr><td>მწარმოებელი ქვეყანა</td><td>გერმანია</td></tr>
+    <tr><td>მფლობელი</td><td>მარიამ მერებაშვილი</td></tr>
+  </table>
+  <p class="note">სურვილისამებრ შეიძლება დაემატოს ზუსტი მოდიფიკაცია, ცხენის ძალა, წელი და სხვა დეტალები.</p>
+</div></section>
+<section id="gallery"><div class="wrap">
+  <h2>გალერეა</h2>
+  <div class="gallery" id="g"></div>
+</div></section>
+<section id="contact"><div class="wrap">
+  <h2>კონტაქტი</h2>
+  <a class="card" href="https://www.instagram.com/mariamimerebashvili/" target="_blank" rel="noopener">
+    <span class="ig"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#fff"/></svg></span>
+    <span><b>Instagram</b><small>@mariamimerebashvili</small></span>
+  </a>
+  <div class="card"><span style="font-size:28px">📍</span><span><b>მდებარეობა</b><small>თბილისი, საქართველო</small></span></div>
+</div></section>
+</main>
+
+<div id="lb"><img alt=""></div>
+<footer>© 2026 მარიამ მერებაშვილი • თბილისი</footer>
+
+<script>
+var photos=[
+"https://i.postimg.cc/kB4w8kTs/Screenshot-2026-09-28-143514.png",
+"https://i.postimg.cc/TpwQmZtF/Screenshot-2026-09-28-143544.png",
+"https://i.postimg.cc/D8Z5stxM/Screenshot-2026-09-28-143612.png",
+"https://i.postimg.cc/JGnKJ9pF/Screenshot-2026-09-28-143637.png",
+"https://i.postimg.cc/svXKStT8/Screenshot-2026-09-28-143653.png"];
+var g=document.getElementById('g'),lb=document.getElementById('lb'),lbi=lb.querySelector('img');
+photos.forEach(function(s,i){
+  var im=new Image();im.src=s;im.alt='BMW F30 '+(i+1);im.loading='lazy';
+  im.onclick=function(){lbi.src=s;lb.classList.add('on')};
+  g.appendChild(im);
+});
+lb.onclick=function(){lb.classList.remove('on')};
+document.addEventListener('keydown',function(e){if(e.key==='Escape')lb.classList.remove('on')});
+
+var links=document.querySelectorAll('nav a'),secs=['home','bio','data','gallery','contact'];
+window.addEventListener('scroll',function(){
+  var cur='home',y=window.scrollY+120;
+  secs.forEach(function(id){var e=document.getElementById(id);if(e&&e.offsetTop<=y)cur=id});
+  links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+cur)});
+});
+</script>
+</body>
+</html>
